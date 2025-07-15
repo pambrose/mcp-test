@@ -20,6 +20,7 @@ repositories {
 dependencies {
   implementation("io.ktor:ktor-server-core")
   implementation("io.ktor:ktor-server-cio")
+  implementation("io.modelcontextprotocol:kotlin-sdk:0.5.0")
   implementation("ch.qos.logback:logback-classic:$logback_version")
   implementation("io.ktor:ktor-server-config-yaml")
   testImplementation("io.ktor:ktor-server-test-host")
